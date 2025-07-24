@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Results | SleepOutside</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="divider">
+      <div class="logo">
+        <img src="./public/images/noun_Tent_2517.svg" alt="tent image for logo" />
+        <a href="index.html"> Sleep<span class="highlight">Outside</span></a>
+      </div>
+      <form id="search-form" class="search-form">
+        <input
+          type="search"
+          id="search-input"
+          name="search"
+          placeholder="Search products…"
+          aria-label="Search products"
+          required
+        />
+        <button type="submit">🔍</button>
+      </form>
+      <div class="cart">
+        <a href="./cart/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">…</svg>
+        </a>
+      </div>
+    </header>
+
+    <main class="divider">
+      <section class="products">
+        <h2 id="results-heading">Search Results</h2>
+        <ul class="product-list" id="search-results"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <script type="module" src="./js/search.js"></script>
+      <script type="module" src="./js/SearchResults.js"></script>
+      &copy;2025 ⛺ SleepOutside ⛺ WDD 330 ⛺ BYU-Idaho for BYU-Pathway Worldwide Online
+    </footer>
+  </body>
+</html>
